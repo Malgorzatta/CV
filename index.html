@@ -1,40 +1,109 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/webstorm-icon-logo.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WS playground</title>
-  <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-<header class="logo">
-  <a href="https://www.jetbrains.com/webstorm/">
-    <img src="/webstorm-logo.svg" alt="WebStorm logo" width="344"
-         height="90">
-  </a>
-</header>
-<main id="app">
-  <h1 class="title">
-    Thank you for trying it out. <br /> Your first project is up and running
-    now.
-  </h1>
-  <section class="counter">
-    <div class="counter-info">
-      <p class="counter-text">Counter is</p>
-      <p class="counter-value" id="counter-value"></p>
-    </div>
-    <div class="counter-interaction">
-      <button id="increaseByOne" type="button">+1</button>
-      <button id="increaseByTwo" type="button">+2</button>
-      <button id="decreaseByOne" type="button">-1</button>
-      <button id="decreaseByTwo" type="button">-2</button>
-    </div>
-  </section>
-</main>
-<footer class="technologies">
-  <img src="/technologies.svg" alt="List of supported technologies">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<nav class="navigation">
+  <div class="container">
+    <ul>
+      <li><a href="#about">Introduction</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<section class="splash">
+  <div class="page-intro">
+    <h2 class="main-subtitle">My CV website</h2>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <h2 class="section-title">Malgorzata Marciniak</h2>
+    <p="section-intro"> Entry level Data Scientist with past experience in the field of renewable energy sources transitioning into data science following the completion of Python for Everybody Specialization Course by University of Michigan.
+      Currently completing an internship focused on working with post-trade data for OTC derivatives using Python.
+      </p>
+  </div>
+</section>
+<section class="education" id="education">
+  <div class="container">
+    <h2 class="section-title">Qualifications and education</h2>
+    <div class="education-wrapper">
+      <article class="education">
+        <h3 class="education-title">Python for Everybody Specialization</h3>
+        <p class="education-description">Course authorized by University of Michigan and offered through Coursera:</p>
+          <ul class="list-dashed">
+          <p class="education-description"><li>Programming for Everybody (Getting Started with Python);</li></p><p class="education-description"><li>Python Data Structures;</li></p>
+          <p class="education-description"><li>Using Python to Access Web Data;</li></p>
+          <p class="education-description"><li>Using Databases with Python;</li></p>
+          <p class="education-description"><li>Capstone: Retrieving, Processing, and Visualizing Data with Python.</li></p>
+          </ul>
+        <article class="education">
+        <h3 class="education-title">Challenge Start coding with Kodilla</h3>
+        <p class="education-description">Creating a website using programming languages HTML, CSS</p>
+          <article class="education">
+        <h3 class="education-title">Technical University of Lodz</h3>
+        <p class="education-description">Master’s Degree. Environmental Engineering: HVAC installations. </p>
+        </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="education-wrapper">
+      <article class="education">
+          <h3 class="education-title">Languages</h3>
+          <ul class="list-dashed">
+          <p class="education-description"><li>English - fluent in speaking and writing; B2</li></p>
+          <p class="education-description"><li>Polish - native</li></p>
+          </ul>
+          <h3 class="education-title">Technical skills</h3>
+          <ul class="list-dashed">
+          <p class = "education-description"><li>Python</li></p>
+          <p class = "education-description"><li>SQL</li></p>
+          <p class = "education-description"><li>HTML</li></p>
+          <p class = "education-description"><li>CSS</li></p>
+          <p class = "education-description"><li>Python libraries: BeautifulSoup, ElementTree, Pandas, NumPy, Selenium</li></p>
+          </ul>
+          <h3 class="education-title">Tools and software</h3>
+          <ul class="list-dashed">
+          <p class = "education-description"><li>Jira, Confluence, Slack</li></p>
+          <p class = "education-description"><li>IntelliJ IDEA, PyCharm, DBeaver</li></p>
+          </ul>
+          <h3 class="education-title">Soft skills</h3>
+          <ul class="list-dashed">
+          <p class = "education-description"><li>Creativity, desire to find solutions</li></p>
+          <p class = "education-description"><li>Analytical thinking</li></p>
+          <p class = "education-description"><li>Strong attention to details</li></p>
+          <p class = "education-description"><li>Communicativeness ability to work in a team and individually</li></p>
+          <p class = "education-description"><li>Commitment to work</li></p>
+          </ul>
+        </div>
+      </section>
+<section class="experience" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="education-wrapper">
+          <article class="education">
+          <h3 class="education">Engineering intern</h3>
+          <p class="education-description">Developing skills of Python programming language applicable in OTC derivatives reporting. Python, Pandas, Selenium; Jira, Confluence, Slack</p>
+              <h3 class="education">Renewable Energy Sources Engineer</h3>
+              <p class="education-description">Designing HVAC and domestic water installations, heat pumps and gas boilers solutions. Performing Energy Audits for residential and commercial buildings</p>
+          </div>
+</section>
+<section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <ul class="social-links">
+          <li><a href="https://github.com/Malgorzatta"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/ma%C5%82gorzata-marciniak-3b690125a/"><i class="fab fa-linkedin"></i></a></li>
+         </ul>
+      </div>
+</section>
+
+<footer class="page-footer">
+  <div class="container">
+    <p>Malgosia</p>
+    <p>2025 </p>
+  </div>
 </footer>
-<script type="module" src="/src/main.js"></script>
-</body>
-</html>
